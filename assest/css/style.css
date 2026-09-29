@@ -9,6 +9,7 @@
     --dark-2:#424242;
     --dark-3:#727272;
     --work-sans:"Work Sans", sans-serif;
+    --font-weight-regular:400;
 }
 
 /* common style */
@@ -110,7 +111,7 @@ nav{
     max-width: 868px;
     margin: 0 auto;
     font-size: 16px;
-    font-weight:600;
+    font-weight:var(--font-weight-regular);
     color: var(--dark-3);
 }
 .primary_btn{
@@ -152,7 +153,7 @@ nav{
 }
 .quick_featurs_content_desc{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: var(--font-weight-regular);
     color: var(--dark-3);
     margin-bottom: 30px;
 }
@@ -174,7 +175,7 @@ nav{
 }
 .enjoyed_features_desc{
     color: var(--dark-3);
-    font-weight: 500 ;
+    font-weight: var(--font-weight-regular) ;
     font-size: 16px;
     max-width: 590px;
     margin-bottom: 30px;
@@ -195,7 +196,7 @@ nav{
 }
 .card_desc{
     color: var(--dark-3);
-    font-weight: 400;
+    font-weight: var(--font-weight-regular);
     font-size: 16px;
 }
 
@@ -239,7 +240,7 @@ nav{
 }
 .facts_desc{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: var(--font-weight-regular);
     color: var(--dark-3);
     margin-top: 24px;
     margin-bottom: 100px;
@@ -274,7 +275,7 @@ nav{
 }
 .sponsors_content p{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: var(--font-weight-regular);
     color: var(--dark-3);
     max-width: 545px;
     margin: 0 auto;
@@ -292,7 +293,9 @@ nav{
 /*sponsor style */
 /*footer style */
 footer {
-    background: #FFF4E7;
+    /* background: #FFF4E7; */
+    color: var(--dark-2);
+    background: var(--primary);
     padding: 39px 20px;
     margin-top: 130px;
     margin-bottom: 120px;
@@ -302,11 +305,9 @@ footer {
 .footer-wrap {
     max-width: 1440px;
     margin: 0 auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-align: center;
 }
 /*footerr style */
